@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function Home() {
-  const week = [2, 3, 4];
+  const week = [2, 3, 4, 5];
 
   const weekLink = week.map((weekNum) => 
     <li className="p-1.5" key={weekNum}>
